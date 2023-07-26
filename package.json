@@ -1,0 +1,31 @@
+{
+  "name": "book-app",
+  "version": "1.0.0",
+  "description": "Coll book app",
+  "main": "app.js",
+  "type": "module",
+  "files": [
+    "./**/*.js"
+  ],
+  "scripts": {
+    "start": "live-server",
+    "build": "rollup -c --watch",
+    "stylelint": "stylelint \"**/*.css\" --fix"
+  },
+  "keywords": [
+    "books"
+  ],
+  "author": "Architect",
+  "license": "ISC",
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^15.1.0",
+    "eslint": "^8.45.0",
+    "rollup": "^3.26.2",
+    "rollup-plugin-import-css": "^3.3.1",
+    "stylelint": "^15.10.2",
+    "stylelint-config-clean-order": "^5.0.1"
+  },
+  "dependencies": {
+    "on-change": "^4.0.2"
+  }
+}

@@ -1,0 +1,15 @@
+.card_list__loader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 30px;
+
+  font-size: 16px;
+}
+
+.card_grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
